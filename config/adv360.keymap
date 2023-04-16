@@ -43,7 +43,7 @@
    &kp TAB      &kp Q   &kp W     &kp E      &kp R   &kp T               &none                                                                  &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
  &kp LCTRL      &kp A   &kp S     &kp D      &kp F   &kp G               &none  &kp LCTRL  &kp LCTRL   &none   &none  &kp RCTRL    &kp ESC      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z   &kp X     &kp C      &kp V   &kp B               &none      &none   &kp LALT   &none   &none   &kp RALT      &none      &none   &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp TILDE  &kp UP  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp LGUI                   &kp LGUI  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp UP  &kp LEFT  &kp RIGHT                    &kp BSPC    &kp DEL   &kp LGUI                   &kp LGUI  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -74,26 +74,6 @@
   &none         &none         &none         &none         &none         &none            &rgb_ug RGB_MEFS_CMD 5  &bt BT_CLR   &none   &none   &none  &bt BT_CLR  &bt BT_CLR  &rgb_ug RGB_MEFS_CMD 5         &none         &none         &none         &none         &none   &none
   &none         &none         &none         &none         &none         &none                             &none       &none   &none   &none   &none       &none       &none                   &none         &none         &none         &none         &none         &none   &none
   &none         &none         &none    &bl BL_INC    &bl BL_DEC                                 &rgb_ug RGB_TOG  &bl BL_TOG   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG                  &bl BL_INC    &bl BL_DEC         &none         &none   &none
-            >;
-        };
-
-        layer_Layer__4 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_Layer__5 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
